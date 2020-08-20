@@ -1,0 +1,69 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Validate Free CRM homepage test",
+        "description": "",
+        "id": "free-crm-application-test;validate-free-crm-homepage-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15733186000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens the browser",
+            "match": {
+              "location": "HomepageSteps.user_opens_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 16633600,
+              "error_message": "java.lang.NullPointerException\r\n\tat com.qa.stepdefinitions.HomepageSteps.user_is_on_login_page(HomepageSteps.java:25)\r\n\tat ✽.Then user is on login page(C:/Users/ssinha/eclipse-workspace/AmazonBDDFramework/src/main/java/com/qa/features/freecrm.feature:7)\r\n",
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "user is on login page",
+            "match": {
+              "location": "HomepageSteps.user_is_on_login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "user logs into app",
+            "match": {
+              "location": "HomepageSteps.user_logs_into_app()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "Verifies Homepage title",
+            "match": {
+              "location": "HomepageSteps.Verifies_Homepage_title()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Free CRM application test",
+    "description": "",
+    "id": "free-crm-application-test",
+    "keyword": "Feature",
+    "uri": "C:/Users/ssinha/eclipse-workspace/AmazonBDDFramework/src/main/java/com/qa/features/freecrm.feature"
+  }
+]

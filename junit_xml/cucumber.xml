@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="15.74982">
+<testcase classname="Free CRM application test" name="Validate Free CRM homepage test" time="15.74982">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at com.qa.stepdefinitions.HomepageSteps.user_is_on_login_page(HomepageSteps.java:25)&#13;&#10;&#9;at ✽.Then user is on login page(C:/Users/ssinha/eclipse-workspace/AmazonBDDFramework/src/main/java/com/qa/features/freecrm.feature:7)&#13;&#10;"><![CDATA[Given user opens the browser................................................passed
+Then user is on login page..................................................failed
+Then user logs into app.....................................................skipped
+Then Verifies Homepage title................................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at com.qa.stepdefinitions.HomepageSteps.user_is_on_login_page(HomepageSteps.java:25)
+	at ✽.Then user is on login page(C:/Users/ssinha/eclipse-workspace/AmazonBDDFramework/src/main/java/com/qa/features/freecrm.feature:7)
+]]></failure>
+</testcase>
+</testsuite>
